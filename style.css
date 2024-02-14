@@ -33,16 +33,6 @@ ul{
     height: 100vh;
 }
 
-/* debug */
-.debug{
-    border: 1px solid red;
-}
-
-.debag{
-    border: 1px solid blue;
-}
-
-
 /* header */
 header{
     height: 50px;
@@ -75,27 +65,6 @@ main{
     width: 100%;
 }
 
-/* .btn{
-    padding: 5px;
-}
-
-.icon{
-    padding: 5px;
-    font-size: 1.4em;
-    text-align: center;
-}
-
-.command{
-    font-size: 0.7em;
-    text-align: center;
-}
-
-.caret{
-    font-size: 0.7em;
-    padding: 10px;
-    align-self: center;
-} */
-
 .command{
     text-align: center;
     padding: 10px;
@@ -112,6 +81,14 @@ main{
 
 li{
     font-size: 0.7em;
+}
+
+.btn-end{
+    text-align: center;
+    line-height: 70px;
+    padding: 0 20px;
+    background-color: var(--color-background-txt);
+    color: var(--color-end);
 }
 
 /* utility flex */
@@ -163,6 +140,13 @@ li{
 .p-abs{
     position: absolute;
 }
+
+/* color */
+
+.color-active{
+    color: var(--color-share);
+}
+
 /* guest cards */
 
 .guest-card{
