@@ -38,6 +38,11 @@ ul{
     border: 1px solid red;
 }
 
+.debag{
+    border: 1px solid blue;
+}
+
+
 /* header */
 header{
     height: 50px;
@@ -70,6 +75,45 @@ main{
     width: 100%;
 }
 
+/* .btn{
+    padding: 5px;
+}
+
+.icon{
+    padding: 5px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.command{
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.caret{
+    font-size: 0.7em;
+    padding: 10px;
+    align-self: center;
+} */
+
+.command{
+    text-align: center;
+    padding: 10px;
+}
+
+.icon{
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+.caret{
+    font-size: 0.7em;
+}
+
+li{
+    font-size: 0.7em;
+}
+
 /* utility flex */
 .d-flex{
     display: flex;
@@ -94,6 +138,8 @@ main{
 
 .a-center{
     align-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .txt-center{
@@ -104,8 +150,8 @@ main{
     gap: 5px;
 }
 
-.stretch-no{
-    align-self: auto;
+.sp-between{
+    justify-content: space-between;
 }
 
 /* utility position */
