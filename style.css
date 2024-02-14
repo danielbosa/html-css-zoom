@@ -21,6 +21,7 @@ ul{
 	--color-primary: #ffffff;
 	--color-share: #4bc800;
 	--color-end: #bd2423;
+    --color-background-txt: #4a4a4a;
 }
 
 /* container */
@@ -40,6 +41,22 @@ ul{
 header{
     height: 50px;
     background-color: red;
+    color: var(--color-primary)
+}
+
+header div{
+    padding: 5px 5px;
+    background-color: var(--color-background-txt);
+    font-size: 0.8em;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+/* main */
+main{
+    height: calc(100% - 50px - 70px);
+    overflow-y: auto;
+    background-color: #4bc800;
 }
 
 /* toolbar */
@@ -53,3 +70,23 @@ header{
     width: 100%;
 }
 
+/* utility flex */
+.d-flex{
+    display: flex;
+}
+
+.j-end{
+    justify-content: flex-end;
+}
+
+.a-start{
+    align-self: flex-start;
+}
+
+.a-center{
+    align-content: center;
+}
+
+.txt-center{
+    text-align: center;
+}
